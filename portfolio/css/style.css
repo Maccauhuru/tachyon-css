@@ -198,3 +198,283 @@
     font-size: 1rem;
   }
 }
+
+.outline {
+  outline: 1px solid;
+}
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+.db {
+  display: block;
+}
+
+.fl {
+  float: left;
+  _display: inline;
+}
+
+.fw4 {
+  font-weight: 400;
+}
+
+.lh-copy {
+  line-height: 1.5;
+}
+
+.link {
+  text-decoration: none;
+  transition: color .15s ease-in;
+}
+
+.link:link,
+.link:visited {
+  transition: color .15s ease-in;
+}
+
+.link:hover {
+  transition: color .15s ease-in;
+}
+
+.link:active {
+  transition: color .15s ease-in;
+}
+
+.link:focus {
+  transition: color .15s ease-in;
+  outline: 1px dotted currentColor;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.black-10 {
+  color: rgba(0, 0, 0, .1);
+}
+
+.black {
+  color: #000;
+}
+
+.gray {
+  color: #777;
+}
+
+.pa2 {
+  padding: .5rem;
+}
+
+.pa3 {
+  padding: 1rem;
+}
+
+.ml0 {
+  margin-left: 0;
+}
+
+.mt2 {
+  margin-top: .5rem;
+}
+
+.mv0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.tc {
+  text-align: center;
+}
+
+.ttu {
+  text-transform: uppercase;
+}
+
+.f3 {
+  font-size: 1.5rem;
+}
+
+.f6 {
+  font-size: .875rem;
+}
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.clip {
+  position: fixed !important;
+  _position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.dim {
+  opacity: 1;
+  transition: opacity .15s ease-in;
+}
+
+.dim:hover,
+.dim:focus {
+  opacity: .5;
+  transition: opacity .15s ease-in;
+}
+
+.dim:active {
+  opacity: .8;
+  transition: opacity .15s ease-out;
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .w-25-m {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 60em) {
+  .w-20-l {
+    width: 20%;
+  }
+}
+
+.cover {
+  background-size: cover !important;
+}
+
+.bg-center {
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.br2 {
+  border-radius: .25rem;
+}
+
+.dib {
+  display: inline-block;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.h2 {
+  height: 2rem;
+}
+
+.link {
+  text-decoration: none;
+  transition: color .15s ease-in;
+}
+
+.link:link,
+.link:visited {
+  transition: color .15s ease-in;
+}
+
+.link:hover {
+  transition: color .15s ease-in;
+}
+
+.link:active {
+  transition: color .15s ease-in;
+}
+
+.link:focus {
+  transition: color .15s ease-in;
+  outline: 1px dotted currentColor;
+}
+
+.w2 {
+  width: 2rem;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.white-60 {
+  color: rgba(255, 255, 255, .6);
+}
+
+.bg-black-80 {
+  background-color: rgba(0, 0, 0, .8);
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.hover-white:hover {
+  color: #fff;
+}
+
+.hover-white:focus {
+  color: #fff;
+}
+
+.pa2 {
+  padding: .5rem;
+}
+
+.pr2 {
+  padding-right: .5rem;
+}
+
+.pv5 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.ph3 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.ma2 {
+  margin: .5rem;
+}
+
+.ml3 {
+  margin-left: 1rem;
+}
+
+.tc {
+  text-align: center;
+}
+
+.f6 {
+  font-size: .875rem;
+}
+
+@media screen and (min-width: 60em) {
+  .tc-l {
+    text-align: center;
+  }
+}
